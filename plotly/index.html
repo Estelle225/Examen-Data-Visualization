@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization with Plotly</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script defer src="viz.js"></script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            margin: 0;
+            height: 100vh;
+            position: relative;
+            color:black;
+        }
+        #bar-graph {
+            width: 90%;
+            height: 90%;
+            margin-top: 10px;
+        }
+        #logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 150px; 
+            height: auto;
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            font-style: italic;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <img id="logo" src="image.png">
+    <h1>Top 30 des pays avec la plus grande population</h1>
+    <div id="bar-graph"></div>
+</body>
+</html>
+
+
+
+
+
+
+

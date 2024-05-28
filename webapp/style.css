@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.counter-container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px black;
+}
+
+#counter-display {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#increase {
+    background-color: #bdffc0;
+    color: black;
+}
+
+#decrease {
+    background-color: #ff6b61;
+    color: black;
+}
+
+#reset {
+    background-color: #b4ddff;
+    color: black;
+}
